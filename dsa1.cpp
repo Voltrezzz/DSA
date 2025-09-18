@@ -12,9 +12,9 @@
         if (indexHash.count(complement)){  // Checks if complement exists
           return {indexHash[complement], i}; // Returns the of current element and its complement
         }
-        indexHash[nums[i]] = i; // Hashing the element as key and the index as value
+        indexHash[nums[i]] = i; 
       }
-      return {}; // Fallback
+      return {}; 
     }
   };
   int main(){
