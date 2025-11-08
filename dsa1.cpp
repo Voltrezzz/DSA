@@ -21,7 +21,7 @@
     int target,elem,temp;
     std::vector <int> nums,result;
 
-    DSA1 obj;  // OOP
+    DSA1 obj;  
 
     std::cout << "\nEnter the target value :: ";
     if (!(std::cin >> target)){
