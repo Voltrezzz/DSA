@@ -8,3 +8,5 @@ DSA 2 : Palindrome Numbers
 DSA 3 : Roman to integer
 
 DSA 4 : Valid Anagram
+
+DSA 5 : Longest Common Prefix
