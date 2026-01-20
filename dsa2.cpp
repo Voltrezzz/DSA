@@ -13,7 +13,7 @@ class Solution{
         x /= 10;
       }
       
-      return (x == rev || x == rev / 10);
+      return (x == rev || x == rev / 10); // Even => x == rev and Odd => x == rev /10
     }
 };
 
