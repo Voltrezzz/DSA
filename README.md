@@ -12,3 +12,9 @@ DSA 4 : Valid Anagram
 DSA 5 : Longest Common Prefix
 
 DSA 6 : Two Sum II - Input Array is Sorted 
+
+DSA 7 : Integer to Roman
+
+DSA 8 : Reverse Integer 
+
+DSA 9 : Plus One

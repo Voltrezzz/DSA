@@ -32,6 +32,6 @@ int main(){
     return 1;
   }
   std::cout << "Reversed Integer :: " << s.reverse(x);
-  
+
   return 0;
 }
