@@ -23,13 +23,16 @@ int main(){
   Solution s;
   std::cout << "Plus One\n==== ===\n";
   std::cout << "Enter the number of element :: ";
-  if (!(std::cin >> n)){
+  if (!(std::cin >> n) || n <= 0){
     std::cerr << "Error :: invalid input\n";
     return 1;
   }
   for (int i = 0;i < n;i++){
-    std::cout << "Enter Element " << i + 1 << " :: ";
-    std::cin >> num;
+    std::cout << "Enter Element " << i + 1 << "(0 - 9) :: ";
+    if (!(std::cin >> num) || num > 9 || num < 0){
+      std::cerr << "Error : invalid element input\n";
+      return 1;
+    }
     digits.push_back(num);
   }
   res = s.plusOne(digits);
