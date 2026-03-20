@@ -18,3 +18,5 @@ DSA 7 : Integer to Roman
 DSA 8 : Reverse Integer 
 
 DSA 9 : Plus One
+
+DSA 10 : Median of Two Sorted Arrays
