@@ -67,6 +67,10 @@ int main(){
     std::cin >> value;
     arr2.push_back(value);
   }
+
+  // Brute force approach
+  // Will optimize later
+  
   std::cout << "The Median is :: " << s.findMedianSortedArrays(arr1,arr2) <<'\n';
   return 0;
 }
